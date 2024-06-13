@@ -8,7 +8,9 @@
 
    
 3: in frontend directory, run the project using   `npm run dev`
+
 4: in backend directory, start the server using   `npm start`
+
 5. set up the .env file 
 SHOP_NAME=''
 API_KEY=''
