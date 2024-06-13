@@ -1,6 +1,6 @@
 # Shopify App
 
-## Follow these 3 Steps to run the app Locally. 
+## Follow these  Steps to run the app Locally. 
 
 1: Clone the Project 
 
