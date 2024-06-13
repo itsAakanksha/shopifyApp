@@ -23,6 +23,6 @@ PORT = 8000
 
 
 ## Deployed Application
-Check out the live demo: [shopify app]
+Check out the live demo: [shopify app](https://shopify-eqjh363oi-aakankshas-projects-97350f10.vercel.app/)
 
 
