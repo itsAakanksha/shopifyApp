@@ -31,7 +31,7 @@ function App() {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await fetch("http://localhost:8000/products");
+        const response = await fetch("https://shopifyapp-production-ae3c.up.railway.app/products");
         if (!response.ok) {
           throw new Error("Failed to fetch products");
         }
@@ -49,7 +49,7 @@ function App() {
 
   const handleSaveNewProduct = async () => {
     try {
-      const response = await fetch("http://localhost:8000/createproduct", {
+      const response = await fetch("https://shopifyapp-production-ae3c.up.railway.app/createproduct", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -81,7 +81,7 @@ function App() {
   const handleSaveEditedProduct = async () => {
     try {
       const response = await fetch(
-        `http://localhost:8000/update/${editingProduct.id}`,
+        `https://shopifyapp-production-ae3c.up.railway.app/update/${editingProduct.id}`,
         {
           method: "PUT",
           headers: {
@@ -109,7 +109,7 @@ function App() {
   const handleDeleteProduct = async (productId) => {
     try {
       const response = await fetch(
-        `http://localhost:8000/delete/${productId}`,
+        `https://shopifyapp-production-ae3c.up.railway.app/${productId}`,
         {
           method: "DELETE",
         }
