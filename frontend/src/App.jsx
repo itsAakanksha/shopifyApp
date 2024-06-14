@@ -109,7 +109,7 @@ function App() {
   const handleDeleteProduct = async (productId) => {
     try {
       const response = await fetch(
-        `https://shopifyapp-production-ae3c.up.railway.app/${productId}`,
+        `https://shopifyapp-production-ae3c.up.railway.app/delete/${productId}`,
         {
           method: "DELETE",
         }
